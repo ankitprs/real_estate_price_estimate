@@ -4,9 +4,6 @@ import pandas as pd
 import pickle
 import json
 
-# loading the saved model
-loaded_model = pickle.load(open('banglore_home_prices_model.sav', 'rb'))
-
 __locations = None
 __data_columns = None
 __model = None
