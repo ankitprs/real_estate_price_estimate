@@ -35,12 +35,12 @@ def load_saved_artifacts():
         __locations = __data_columns[3:]  # first 3 columns are sqft, bath, bhk
 
     global __model
-    try: 
-      if __model is None:
+    # try: 
+    if __model is None:
         with open('banglore_home_prices_model.pickle', 'rb') as f:
             __model = pickle.load(f)
-    except ModuleNotFoundError as e:
-      print(f"Error loading the model: {e}")
+    # except ModuleNotFoundError as e:
+    #   print(f"Error loading the model: {e}")
 
     print("loading saved artifacts...done")
 
