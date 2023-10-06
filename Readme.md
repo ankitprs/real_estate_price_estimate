@@ -36,7 +36,7 @@ To get started with this project, you can follow these instructions:
 1. Run the Streamlit web application:
 
 ``` bash
-    streamlit run index.py
+streamlit run index.py
 ```
 
 2. Open a web browser and navigate to the URL displayed in the terminal (usually http://localhost:8501).
