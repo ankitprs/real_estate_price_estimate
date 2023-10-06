@@ -1,4 +1,1 @@
-streamlit
-numpy
-pandas
-pickle5
+numpy==1.24.2

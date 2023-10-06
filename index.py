@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-import pandas as pd
 import pickle
 import json
 
@@ -42,7 +41,7 @@ def load_saved_artifacts():
             __model = pickle.load(f)
     except ModuleNotFoundError as e:
       print(f"Error loading the model: {e}")
-      
+
     print("loading saved artifacts...done")
 
 
